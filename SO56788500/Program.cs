@@ -4,7 +4,7 @@ namespace SO56788500
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var text = new TextSectionParser().Parse("My name is {John|Tom|Bob} and I live in {a {big|small} city|the {beautiful|large} country}");
 

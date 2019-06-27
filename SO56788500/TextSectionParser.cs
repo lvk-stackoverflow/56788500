@@ -49,7 +49,6 @@ namespace SO56788500
 
         private TextSection ParseSubExpression(string expression, ref int index)
         {
-            int start = index;
             index++;
             int level = 1;
 
